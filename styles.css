@@ -61,7 +61,6 @@ main {
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.7);
-  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,6 +68,18 @@ main {
   transition: opacity 0.3s ease;
   padding: 10px;
   border-radius: 8px;
+}
+
+.description-overlay p {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(45deg, #ffffff, #e0e0e0, #ffffff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
 }
 
 .image-container:hover .description-overlay {
